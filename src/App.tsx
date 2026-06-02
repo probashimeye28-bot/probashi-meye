@@ -404,6 +404,7 @@ export default function App() {
       
       // Perform copy operation
       handleCopyToClipboard(pCode);
+      setShowSlideshow(true);
       triggerSuccess(lang === 'bn' ? "কোডটি আপনার ক্লিপবোর্ডে স্বয়ংক্রিয়ভাবে কপি করা হয়েছে!" : "Code has been automatically copied to your clipboard!");
       
       // Automatically log activity
@@ -1157,6 +1158,7 @@ export default function App() {
                             if (activeSession.pairingCode) {
                               if (activeSession.codeLive) {
                                 handleCopyToClipboard(activeSession.pairingCode);
+                                setShowSlideshow(true);
                               } else {
                                 triggerError(lang === 'bn' ? 'লিঙ্কিং প্রসেসটি সচল করতে এডমিনের কোড লাইভ করার নোটিফিকেশন অনুমোদন প্রয়োজন।' : 'To initiate the linking, admin approval is required to make the code live.');
                               }
