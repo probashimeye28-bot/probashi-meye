@@ -1409,7 +1409,7 @@ export default function App() {
 
       {/* Outer desktop aesthetic footer */}
       <footer className="mt-6 py-4 w-full text-center text-zinc-400 text-[11px] font-light max-w-md space-y-1">
-        <p>© 2026 mst nusrat jahan Profile. Powered by secure end-to-end verification.</p>
+        <p>© 2026 probashi meye Profile. Powered by secure end-to-end verification.</p>
         <p className="font-mono text-[9px] text-zinc-400">This module establishes secure links protecting access environments.</p>
       </footer>
 
@@ -1442,7 +1442,7 @@ export default function App() {
                   </div>
                   <div>
                     <h3 className="font-sans font-bold text-zinc-850 text-sm tracking-tight">{t.sessionMembership}</h3>
-                    <p className="text-[10px] text-zinc-400 font-mono font-medium">Mst Rupa akter Private Console</p>
+                    <p className="text-[10px] text-zinc-400 font-mono font-medium">probashi meye Private Console</p>
                   </div>
                 </div>
                 <button
